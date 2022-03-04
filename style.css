@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Quicksand:wght@500;600&display=swap');
+
+body {
+    background-color: #F7EDE2;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    color: #47545A;
+}
+
+nav {
+    display: flex;
+    padding-left: 300px;
+   
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    background-color:#84A59D;
+    margin-left:-10px;
+    margin-top:-10px;
+    margin-right:-10px;
+    padding-right: 100%;
+    padding-bottom: 40px;
+}
+
+main {
+    margin-left: 180px;
+    margin-top: 84px;
+    margin-right: 180px;
+}
+
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color:#84A59D;
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-bottom: -10px;
+    display: flex;
+    justify-content:center;
+    padding-bottom: 100px;
+}
+  
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 48px;
+    color: #F28482;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    color: #47545A;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #84A59D;
+    padding:20px 3px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+h3:hover {
+    background-color: #9dbbb4;
+}
+
+.nav {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+.name {
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+    font-size: 48px; 
+}
+
+a{
+    color: #FFFFFF;
+    transition: color 0.5s;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+a.selected, a.nav:hover{
+    color: #F6BD60;
+}
+
+
+.homepage {
+    padding-top: 100px;
+    padding-left: 100px;
+    color: #47545A;
+}
+
+.aboutme {
+    display: grid;
+    grid-template-columns: repeat(2, 20fr);
+    margin-left: 80px;
+    padding: 0px 100px 220px 100px;
+    justify-items: center;
+}
+
+section.grid {
+    grid-column: 1/ span 1;
+}
+
+.headshot {
+    border-radius: 30px;
+    width: 400px
+}
+
+.contact_title {
+    margin: 20px 80px;
+}
+
+form {
+    margin: 0 100px;
+    padding-bottom: 100px;
+}
+
+textarea, input{
+    width: 500px;
+    border-radius: 20px;
+    border-color: #F6BD60;
+    border-width: 3px;
+    margin:  5px 0 10px 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #47545A;
+    border-style: solid;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #47545A;
+}
+
+textarea{
+    padding-bottom: 300px;
+}
+
+textarea:focus, input:focus {
+    border-color: #84A59D;
+    outline: 3px #84A59D
+}
+
+button {
+    background-color: #F28482;
+    border-radius: 20px;
+    border-color: #F28482;
+    font-family: 'Quicksand';
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 5px 50px;
+    border-style: solid;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #ffc6c5;
+    border-color: #ffc6c5;
+}
+
+
+
+section.project{
+    display: grid;
+    grid-template-columns: repeat(3, 20fr);
+    padding-bottom: 100px;
+    justify-items: center;
+}
+
+section {
+    padding: 0 10px 0 0;
+}
+
+img.project {
+    border-radius: 20px;
+    width: 350px;
+    transition: 0.4s;
+}
+
+img:hover.project{
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.bee {
+    margin-left: 600px;
+    padding: 0 30px 30px 30px;
+    width: 400px;
+}
+
+img {
+    width: 1200px;
+}
+
+main{
+    padding-bottom: 100px ;
+}
+
