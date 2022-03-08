@@ -234,7 +234,7 @@ img.right{
 }
 
 .task{
-    margin:0 20%;
+    margin:0 auto;
     max-width: 1000px;
     align-self: center;
 }
