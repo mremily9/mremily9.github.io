@@ -234,9 +234,11 @@ img.right{
 }
 
 .task{
-    margin:0 300px;
+    margin:0 20%;
     max-width: 1000px;
+    align-self: center;
 }
+
 @media (max-width: 1400px){
     .aboutme{
         padding: 10px 10px 200px 10px;
