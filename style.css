@@ -3,7 +3,7 @@
 body {
     background-color: #F7EDE2;
     font-family: 'Quicksand';
-    font-size: 14px;
+    font-size: 16px;
     color: #47545A;
 }
 
@@ -196,7 +196,7 @@ img:hover.project{
 }
 
 img {
-    width: 1200px;
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -217,6 +217,26 @@ a.selected, a.nav:hover{
     color: #F6BD60;
 }
 
+img.left{
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+img.right{
+    float: right;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.ref{
+    font-size: 12px;
+}
+
+.task{
+    margin:0 300px;
+    max-width: 1000px;
+}
 @media (max-width: 1400px){
     .aboutme{
         padding: 10px 10px 200px 10px;
@@ -244,15 +264,13 @@ a.selected, a.nav:hover{
     nav{
         padding-left: 20px;
     }
-    img{
-        width: 1000px;
+    .task{
+        margin:0 200px;
     }
 }
 
 @media (max-width:1150px){
-    img{
-        width: 800px;
-    }
+  
 }
 
 
@@ -334,8 +352,20 @@ a.selected, a.nav:hover{
     .aboutme{
         padding-bottom: 0px;
     }
-    img{
-        width: 500px;
+  
+    img.left{
+        width: 100%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    img.right{
+        margin-bottom: 20px;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .task{
+        margin:0 100px;
     }
 }
 
@@ -356,7 +386,8 @@ a.selected, a.nav:hover{
     .contact_title{
         margin:10px 20px;
     }
-    img{
-        width: 400px;
+    .task{
+        margin:20px 40px;
     }
+  
 }
