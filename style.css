@@ -239,6 +239,20 @@ img.right{
     align-self: center;
 }
 
+.doc{
+    font-family: 'Quicksand';
+    font-size: 16px;
+    color: #47545A;
+    text-decoration: underline;
+}
+
+.doc:hover{
+    font-family: 'Quicksand';
+    font-size: 16px;
+    color: #F6BD60;
+    text-decoration: underline;
+}
+
 @media (max-width: 1400px){
     .aboutme{
         padding: 10px 10px 200px 10px;
