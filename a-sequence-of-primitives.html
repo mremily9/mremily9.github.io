@@ -54,7 +54,7 @@
             However, I went with the last statstic as I felt it represented the ideas of responsible consumption better rather than just the general idea of waste and its link with textiles. 
         </p>
         <br>
-        <img src="https://cdn.discordapp.com/attachments/1209728801307762718/1222472314797690964/image.png?ex=66165710&is=6603e210&hm=393f463afb268b0317c0a6434b47c9ec3267b684915fcfaf1b71bf4a512c194c&">
+        <img src="240/stats.png">
 
         <br><br>
         
@@ -92,7 +92,8 @@
         <h2>Source code</h2>
         <pre>
             <code>
-PShape Tshirt, body, sleeve, sleeve2, neck, diamond, priceTag, string, tag, landfill1, landfill2, landfill3; 
+PShape Tshirt, body, sleeve, sleeve2, neck, diamond, priceTag, string, tag, landfill1;
+PShape landfill2, landfill3; 
 int count, x = 0; 
 int y = -50; 
 int k = 200;
@@ -250,8 +251,10 @@ void landfill(int k){
     for (int i = 0; i < 50; i++) {
       pushMatrix();
       rectMode(CENTER);
-      translate(i*10, (random((350+cos(a)*75), 700) + k)); //Translate within the area of the cosine wave
-      rotate(random(PI)); //Translate is done first so that the rotate is done in the centre of the rectangle
+      translate(i*10, (random((350+cos(a)*75), 700) + k)); //Translate within the area 
+      //of the cosine wave
+      rotate(random(PI)); //Translate is done first so that the rotate is done in the 
+      //centre of the rectangle
       fill(0);
       shape(shapes[int(random(2))], 0, 0);
       popMatrix();
