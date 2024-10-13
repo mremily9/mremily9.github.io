@@ -258,6 +258,23 @@ iframe{
     border-radius: 20px;
 }
 
+section.contacts{
+    display: flex;
+    max-width: 200px;
+    padding-right: 100px;
+}
+
+.home{
+    max-width: 50%;
+}
+
+.homept2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 @media (max-width: 1400px){
     .aboutme{
         padding: 10px 10px 200px 10px;
@@ -296,6 +313,14 @@ iframe{
 
 
 @media (max-width: 920px){
+    .homept2{
+        flex-wrap: wrap-reverse;
+        width: 120%;
+    }
+    .home{
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
     main{
         margin-left: 70px;
         margin-top: 40px;
@@ -324,7 +349,7 @@ iframe{
         padding-left: 0px;
         margin-top: 10px;
         font-size: 18px;
-
+        
     }
     header {
         padding-bottom: 25px;
@@ -372,6 +397,7 @@ iframe{
     }
     .aboutme{
         padding-bottom: 0px;
+        margin-right: 0px;
     }
   
     img.left{
@@ -409,6 +435,9 @@ iframe{
     }
     .task{
         margin:20px 40px;
+    }
+    .nav{
+        margin-left: 10px;
     }
   
 }
